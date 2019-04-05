@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Inline Editor</title>
+	<link rel="stylesheet" href="Editor.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+		<div id="main-body" v-on:click="hideEditor" >
+
+      		<div class="Editor" v-on:click.stop v-if="show_Editor">
+
+      		      <input type="text" v-model="input_content">
+   			</div>
+
+      	   <p v-on:click.stop="toggleEditor"><i class="fa fa-pencil"></i>{{input_content}}</p>
+		</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+<script type="text/javascript" src="Editor.js"></script>
+</body>
+</html>

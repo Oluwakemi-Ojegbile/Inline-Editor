@@ -1,0 +1,41 @@
+body{
+    font:15px,sans-serif;
+    color: #5e5b64;
+    text-align:center;
+}
+
+#main-body{
+    height:300px;
+    position:relative;
+    padding-top: 150px;
+}
+
+.Editor{
+    background-color:#5c9bb7;
+    box-shadow: 0 1px 1px #fff;
+    border-radius:3px;
+    width: 350px;
+    padding: 10px;
+    position: absolute;
+    left:50%;
+    margin-left:-220px;
+    top: 80px;
+}
+
+input{
+    width: 100%;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 16px;
+    color: #8d9395;
+    font-weight: bold;
+}
+
+p{
+    font-size:22px;
+    font-weight:bold;
+    color:#6d8088;
+    height: 30px;
+    cursor:default;
+}
